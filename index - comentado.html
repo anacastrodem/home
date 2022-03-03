@@ -1,0 +1,194 @@
+<!doctype html>
+<!-- Esta línea sirve para decirle en que idioma esta la web -->
+<html lang="es">
+    <head>
+        <!-- Esta línea sirve para decirle que tipo de carácteres voy a utilizar
+        en este caso carácteres latinos -->
+        <meta charset="utf-8">
+        <!-- Esta línea sirve para que nuestra web se adapte a todas las pantallas: móvil, escritorio -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Esta línea sirve para decirle que icono queremos usar para la web en la pestaña del navegador -->
+		<link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/logo-de-la-justicia-y-ley-mujer-ciega-158602340.jpg">
+
+        <!-- Esta línea definirá el título que aparecerá en el buscador de Google -->
+		<title>Derechos</title>
+        <!-- Esta línea definirá la descripción que aparecerá en el buscador de Google -->
+		<meta name="description" content="Contenido legal por comunidades autonomas, España">
+        <!-- Esta línea define las palabras clave que aparecerán en el buscador -->
+        <meta name="keywords"  content="abogados,leyes,noticias legales">
+
+        <!-- Esta línea le dice donde se encuentran los archivos css de nuestra web, el de normalize
+        lo que hace es quitar todo el css que le añade el navegador a nuestra web por defecto -->
+        <link href="style/normalize.css" rel="stylesheet">
+        <!-- En cambio en este archivo lo que hacemos es escribir el css que queremos -->
+        <link href="style/main.css" rel="stylesheet">
+        <!-- En esta linea se termina el header que es la configuracion de la pagina -->
+    </head>
+        <!--En esta linea se inicia la parte visible de la pagina y contiene todas las cajas donde se va a 
+        navegar; se van a poder apreciar varias subdivisiones para ordenar el contenido de la pagian  -->
+    <body>
+        <!-- Esta es la primera division de la pagina. Existen tres cajas principales denominadas header
+        main y footer -->
+        <header>
+        <!-- Aqui se inicia la barra superior, contenida en el header, dentro de ella estan las primeras
+             cajas de la pagina-->
+            <div class="barra-superior">
+         <!-- En esta linea ira la fecha de la pagina web, se utiliza como elemento fecha dentro de el
+             valor span en la segunda linea-->
+                <div class="fecha">
+                    <span>03/03/2022</span>
+                </div>
+        <!-- Esta es una nueva caja, sirve para que los usuarios puedan acceder o registrarse en la
+            pagina web  -->
+
+                <div class="usuarios">
+
+        <!-- En estas lineas he establecido el botón de registro para las personas que deseen acceder
+        al contenido de la pagina -->
+            
+                    <div class="registrarse">
+                        <button>Registrate</button>
+                    </div> 
+        <!-- En estas dos lineas esta el acceso para usuarios ya registrados en la pagina  -->
+                    
+                    <div class="ingresar">
+                        <button>Iniciar sesión</button>
+        <!-- Aquí se han empezado a cerrar las distintas cajas que se utilizaron para contener la 
+            caja de barra superior del header -->
+                    </div>
+                </div>
+            </div>
+        <!-- Esta es la denominacion de la caja quee sigue dentro del header que se denomina barra principal -->
+
+            <div class="barra-principal">
+        <!-- En esta linea abrimos una nueva caja que va a contener el logo y titulo en una caja y el
+        menu en otra caja -->
+                <div class="header-logo">
+        <!-- En esta linea le empezamos a dar caracteristicas al logo -->
+                    <div class="logo">
+        <!-- En esta linea agragamos la imagen, se configura el tamaño del logo tomada de una pagina web llamada
+             https://materialdesignicons.com/  -->
+                        <svg viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12,3C10.73,3 9.6,3.8 9.18,5H3V7H4.95L2,14C1.53,16 3,17 5.5,17C8,17 9.56,16 9,14L6.05,7H9.17C9.5,7.85 10.15,8.5 11,8.83V20H2V22H22V20H13V8.82C13.85,8.5 14.5,7.85 14.82,7H17.95L15,14C14.53,16 16,17 18.5,17C21,17 22.56,16 22,14L19.05,7H21V5H14.83C14.4,3.8 13.27,3 12,3M12,5A1,1 0 0,1 13,6A1,1 0 0,1 12,7A1,1 0 0,1 11,6A1,1 0 0,1 12,5M5.5,10.25L7,14H4L5.5,10.25M18.5,10.25L20,14H17L18.5,10.25Z" />
+                        </svg>
+        <!-- En esta linea cerramos el logo y abrimos la caja del titulo que sigue estando en la caja 
+        barra principak -->
+                    </div>
+        <!-- En esta linea abrimos la caja del logo -->
+    
+                    <div class="logo-titulo">
+        <!-- Aqui esta la parte visible del titulo de la pagina en tamaño h1 -->
+                        <h1>ASUNTOS LEGALES</h1>
+                    </div>
+        <!-- En esta linea empezamos a cerrar la caja que contiene el logo y titulo de la barra principal
+        y abrimos una nueva caja denominada menu que estara tambien dentro de la caja principal -->
+                </div>
+    
+                <div class="header-menu">
+        <!-- En este caso se ha realizado una lista para ingresar a la pagina de otra forma distinta 
+        a la caja de actualidad legislativa -->
+                    <ul>
+         <!-- Esta linea es para ir al inicio de la pagina  -->
+                        <li>Inicio</li>
+        <!-- En esta linea se puede ingresar a actualidad legislativa de las comunidades -->
+                        <li>Actualidad</li>
+        <!-- Esta linea es para ingresar a la legislacion vigente -->
+                        <li>Legislación</li>
+        <!-- Esta linea es para ingresar a la informacion por comunidades -->
+                        <li>Comunidades</li>
+                    </ul>
+                </div>
+            </div>
+        <!-- Estas lineas son para cerrar el header y todas las cajas que contiene -->
+        </header>
+
+        <!-- Aqui se abre una caja que contiene la informacion detallada. Es la parte que debe ser mas 
+        llamativa para que los usuarios accedan a la información -->
+        <main>
+            <div class="actualidad-legislativa">
+        <!-- Aqui abrimos dos cajas, una para noticias legales y otra para legislación vigente -->
+                <div class="noticias-legales">
+        <!-- Esta es la caja de noticias, aqui agragamos un enlace para dirigirnos a la fuente de 
+        origen de la noticiaº-->
+                    <div class="noticia">
+        <!-- En esta linea se encuentra un hipervinculo para llevarnos a la fuente original de
+        la noticia con la letra a href= -->
+                        <h3><a href="">Últimas novedades en la ley de protección de datos</a</h3>
+                    </div>
+        <!-- En esta linea es la siguiente noticia igual con hipervinculo -->
+                    <div class="noticia">
+                        <h3><a href="">Nueva oferta de plazas para fiscalía</a></h3>
+                    </div>
+        <!-- Aqui cerramos la caja de noticia que se encuentra dentro de actualidad legislativa  -->
+                </div> 
+        <!-- Aqui abrimos una caja dentro de actualidad legislativa pero para legislacion vigente
+        y a su vez dentro las cajas que corresponden a las leyes y sus respectivos hipervinculos que nos 
+        llevaran a las fuentes originales  -->
+                <div class="legislacion-vigente">
+                    <div class="ley">
+                        <h3><a href="">Ley de protección de datos</a></h3>
+                    </div>
+
+                    <div class="ley">
+                        <h3><a href="">Ley de protección a menores</a></h3>
+                    </div>
+                </div>
+        <!-- aqui ya cerramos la caja de actualidad legislativa para abrir otra caja similar  -->
+            </div>
+
+        <!-- Aqui estando todavia en main, abrimos otra caja que va a contener la misma informacion 
+        pero por comunidades autonomas la caja se llama legislacion por comunidades autonomas y esta 
+        a su vez contiene tres cajas que corresponden a cada comunidad que al abrirla deberia contener 
+        la misma información que la caja de actualidad legislativa pero de cada comunidad autonoma -->
+            <div class="legislacion-por-comunidades-autonomas">
+                <div class="comunidad">
+                    <img src="images/baleares.jpg">
+                </div>
+
+                <div class="comunidad">
+                    <img src="images/madrid.svg">
+                </div>
+
+                <div class="comunidad">
+                    <img src="images/galicia.jpg">
+                </div>
+            </div>
+        <!-- aqui ya se cierra el main que es la caja mas vistosa de la pagina web  -->
+        </main>
+        <!-- Aqui ya abrimos el pie de pagina  -->
+        <footer>
+        <!--Aqui usamos una lista sin numeracion para una caja del footer   -->
+            <div class="columna-pie-de-pagina">
+                <ul>
+                    <li>Quienes somos</li>
+                    <li>Donde estamos</li>
+                    <li>Contactanos</li>
+                    <li>Quejas y reclamaciones</li>
+                </ul>
+        <!-- Aqui cierra una caja del footer y abrimos otra para continuar igualmente con otra lista sin
+        numeracion  -->
+            </div>
+        
+            <div class="columna-pie-de-pagina">
+                <ul>
+                    <li>Misión, visión y valores</li>
+                    <li>Política de privacidad</li>
+                    <li>Redes sociales</li>
+                </ul>
+            </div>
+        <!-- aqui cerrramos el footer  -->
+        </footer>
+            
+        <script src="js/main.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Ubuntu:700,700i', 'Ubuntu+Condensed:400']
+                }
+            });        
+        </script>
+
+    </body>
+</html>
